@@ -1,63 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">  
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Legal Documents - Idle Crypto Tycoon</title>    
+    <title>Legal Documents - Idle Crypto Tycoon</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Inter:wght@400;600&display=swap" rel="stylesheet">
     
-    
-    <link rel="stylesheet" href="css/style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #0f1419 0%, #1a1f2e 100%);
+            color: #e8eaed;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 600px;
+            text-align: center;
+        }
+        
+        .game-title {
+            font-family: 'Fredoka One', cursive;
+            font-size: 3rem;
+            background: linear-gradient(135deg, #00d4ff, #ffd700);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 20px;
+        }
+        
+        .subtitle {
+            font-size: 1.3rem;
+            color: #9aa0a6;
+            margin-bottom: 50px;
+        }
+        
+        .doc-cards {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .doc-card {
+            background: #1a1f2e;
+            border: 2px solid #2d3748;
+            border-radius: 16px;
+            padding: 30px;
+            width: 250px;
+            text-decoration: none;
+            color: #e8eaed;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .doc-card:hover {
+            border-color: #00d4ff;
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 212, 255, 0.3);
+        }
+        
+        .doc-icon {
+            font-size: 3rem;
+        }
+        
+        .doc-title {
+            font-family: 'Fredoka One', cursive;
+            font-size: 1.3rem;
+            color: #00d4ff;
+        }
+        
+        .doc-description {
+            font-size: 0.9rem;
+            color: #9aa0a6;
+            line-height: 1.5;
+        }
+        
+        @media (max-width: 600px) {
+            .game-title {
+                font-size: 2rem;
+            }
+            
+            .doc-cards {
+                flex-direction: column;
+            }
+            
+            .doc-card {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="container">
+        <h1 class="game-title">⛏️ Idle Crypto Tycoon</h1>
+        <p class="subtitle">Legal Documents</p>
         
-        <div class="language-switcher">
-            <button class="lang-btn active" onclick="switchLanguage('en')" id="btn-en">
-                <span class="flag">🇺🇸</span>
-                <span>English</span>
-            </button>
-            <button class="lang-btn" onclick="switchLanguage('pt-br')" id="btn-pt-br">
-                <span class="flag">🇧🇷</span>
-                <span>Português</span>
-            </button>
-        </div>
-        
-        
-        <div class="header">
-            <h1 class="game-title">Idle Crypto Tycoon</h1>
-            <p class="subtitle" id="subtitle">Legal Documents</p>
-        </div>
-
-        
-        <div class="tabs">
-            <button class="tab-btn active" onclick="switchDocument('privacy')" id="tab-privacy">
-                <span>📜</span>
-                <span id="tab-privacy-text">Privacy Policy</span>
-            </button>
-            <button class="tab-btn" onclick="switchDocument('terms')" id="tab-terms">
-                <span>📋</span>
-                <span id="tab-terms-text">Terms of Service</span>
-            </button>
-        </div>
-        
-        
-        <section class="language-section" id="content">
-            <div class="language-header">
-                <span class="flag-large" id="flag-large">🇺🇸</span>
-                <h2 class="language-title" id="page-title">Loading...</h2>
-            </div>
+        <div class="doc-cards">
+            <a href="privacy-policy/" class="doc-card">
+                <div class="doc-icon">📜</div>
+                <h2 class="doc-title">Privacy Policy</h2>
+                <p class="doc-description">Learn how we collect, use, and protect your data</p>
+            </a>
             
-            <div class="content" id="main-content">
-                <p>Loading content...</p>
-            </div>
-        </section>
+            <a href="terms-of-service/" class="doc-card">
+                <div class="doc-icon">📋</div>
+                <h2 class="doc-title">Terms of Service</h2>
+                <p class="doc-description">Understand the rules and guidelines for using our game</p>
+            </a>
+        </div>
     </div>
-    
-    
-    <script src="js/script.js"></script>
 </body>
 </html>
