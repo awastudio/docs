@@ -1,0 +1,104 @@
+{
+  "subtitle": "Terms of Service",
+  "flag": "🇺🇸",
+  "pageTitle": "Terms of Service",
+  "lastUpdated": "Last updated: October 24, 2025",
+  "sections": [
+    {
+      "title": "Acceptance of Terms",
+      "content": "By downloading, installing, or using Idle Crypto Tycoon (\"the Game\"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the Game."
+    },
+    {
+      "title": "License to Use",
+      "content": "We grant you a limited, non-exclusive, non-transferable, revocable license to access and use the Game for your personal, non-commercial entertainment purposes. You may not:",
+      "items": [
+        "Copy, modify, or distribute the Game or any part of it",
+        "Reverse engineer, decompile, or disassemble the Game",
+        "Use the Game for any commercial purpose or public display",
+        "Remove or alter any copyright, trademark, or proprietary notices",
+        "Use cheats, exploits, automation software, bots, hacks, mods, or any unauthorized third-party software"
+      ]
+    },
+    {
+      "title": "Virtual Currency and In-App Purchases",
+      "content": "The Game may offer virtual currency (\"Diamonds\") and other virtual items for purchase using real money. By making a purchase, you agree to the following:",
+      "items": [
+        "<strong>No Real-World Value:</strong> Virtual currency and items have no monetary value outside the Game and cannot be exchanged for real currency",
+        "<strong>All Sales Final:</strong> Purchases are final and non-refundable, except where required by law",
+        "<strong>Billing:</strong> All purchases are processed through Google Play Billing. We do not have access to your payment information",
+        "<strong>Price Changes:</strong> We reserve the right to modify prices at any time without prior notice",
+        "<strong>No Guarantee:</strong> We do not guarantee the continued availability of any virtual items or currency"
+      ]
+    },
+    {
+      "title": "Account and Login",
+      "content": "To access certain features, you may log in using Google Play Games Services. By doing so:",
+      "items": [
+        "You agree to comply with Google's Terms of Service",
+        "You are responsible for maintaining the security of your account",
+        "You must not share your account credentials with others",
+        "You must notify us immediately of any unauthorized use of your account"
+      ]
+    },
+    {
+      "title": "User Conduct",
+      "content": "When using the Game, you agree to:",
+      "items": [
+        "Comply with all applicable laws and regulations",
+        "Not engage in cheating, hacking, or exploiting bugs",
+        "Not harass, abuse, or harm other players",
+        "Not impersonate any person or entity",
+        "Not upload or transmit viruses or malicious code",
+        "Not use offensive or inappropriate usernames"
+      ]
+    },
+    {
+      "title": "Suspension and Termination",
+      "content": "We reserve the right to suspend or terminate your access to the Game, with or without notice, for any reason, including but not limited to:",
+      "items": [
+        "Violation of these Terms of Service",
+        "Fraudulent or illegal activity",
+        "Use of cheats, hacks, or unauthorized software",
+        "Abusive behavior toward other players or our team"
+      ]
+    },
+    {
+      "title": "Intellectual Property",
+      "content": "All content in the Game, including but not limited to graphics, text, music, code, and trademarks, is the property of AWA Studio or its licensors and is protected by copyright and intellectual property laws. You may not use any content from the Game without our express written permission."
+    },
+    {
+      "title": "Disclaimer of Warranties",
+      "content": "The Game is provided \"AS IS\" and \"AS AVAILABLE\" without warranties of any kind, either express or implied. We do not warrant that:",
+      "items": [
+        "The Game will be uninterrupted or error-free",
+        "Defects will be corrected",
+        "The Game is free of viruses or other harmful components",
+        "Game data will be saved or backed up successfully"
+      ]
+    },
+    {
+      "title": "Limitation of Liability",
+      "content": "To the maximum extent permitted by law, AWA Studio shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of data, loss of profits, or loss of game progress, arising out of or related to your use of the Game."
+    },
+    {
+      "title": "Changes to the Game",
+      "content": "We reserve the right to modify, update, or discontinue the Game or any part of it at any time, with or without notice. We are not liable to you or any third party for any modification, suspension, or discontinuation of the Game."
+    },
+    {
+      "title": "Changes to Terms",
+      "content": "We may update these Terms of Service from time to time. Changes will be effective immediately upon posting. Your continued use of the Game after changes are posted constitutes acceptance of the updated Terms."
+    },
+    {
+      "title": "Governing Law",
+      "content": "These Terms shall be governed by and construed in accordance with the laws of Brazil, without regard to its conflict of law principles. Any disputes arising from these Terms or the Game shall be resolved in the courts of Brazil."
+    },
+    {
+      "title": "Contact Us",
+      "content": "If you have questions or concerns about these Terms of Service, please contact us:",
+      "items": [
+        "<strong>Email:</strong> awa.studio.games@gmail.com",
+        "<strong>Response Time:</strong> We aim to respond within 7 business days"
+      ]
+    }
+  ]
+}
