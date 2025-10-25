@@ -10,7 +10,7 @@
     },
     {
       "title": "Privacy",
-      "content": "Your use of the Game is also governed by our Privacy Policy, which describes how we collect, use, and protect your personal information. By using the Game, you also agree to our Privacy Policy, available at <a href='https://awastudio.github.io/privacy-policy/' style='color: #00d4ff;' target='_blank'>Privacy Policy</a>."
+      "content": "Your use of the Game is also governed by our Privacy Policy, which describes how we collect, use, and protect your personal information. By using the Game, you also agree to our Privacy Policy, available at <a href='https://awastudio.github.io/privacy-policy/' style='color: #00d4ff;' target='_blank' rel='noopener noreferrer'>Privacy Policy</a>."
     },
     {
       "title": "License to Use",
