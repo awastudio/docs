@@ -5,35 +5,95 @@
   "lastUpdated": "Última atualização: 24 de outubro de 2025",
   "sections": [
     {
-      "title": "Informações Coletadas",
-      "content": "Nosso jogo coleta os seguintes dados através do Google Play Games Services:",
+      "title": "Introdução",
+      "content": "Esta Política de Privacidade descreve como o Idle Crypto Tycoon (\"nós\", \"nosso\" ou \"o aplicativo\") coleta, usa e protege suas informações pessoais quando você usa nosso jogo mobile. Ao usar o aplicativo, você concorda com a coleta e uso de informações de acordo com esta política."
+    },
+    {
+      "title": "Informações que Coletamos",
+      "content": "Nosso jogo coleta os seguintes tipos de dados através do Google Play Games Services e funcionalidades do aplicativo:",
       "items": [
-        "IDs de usuários: Para autenticação e salvamento na nuvem",
-        "Progresso do jogo: Conquistas, placares, saves",
-        "Dados de desempenho: Registros de falhas e diagnósticos",
-        "Interações no app: Para análise de uso"
+        "<strong>IDs de Usuário:</strong> Identificadores únicos associados à sua conta do Google Play Games para autenticação e funcionalidade de salvamento na nuvem",
+        "<strong>Progresso do Jogo:</strong> Conquistas, pontuações em placares e dados de jogo salvos na nuvem",
+        "<strong>Informações do Dispositivo:</strong> Identificadores de dispositivo, versão do sistema operacional e modelo do dispositivo para diagnósticos técnicos",
+        "<strong>Dados de Desempenho:</strong> Registros de falhas, relatórios de erros e informações de diagnóstico para melhorar a estabilidade do aplicativo",
+        "<strong>Interações no Aplicativo:</strong> Informações sobre como você interage com o jogo, como recursos utilizados e duração da sessão para fins de análise"
       ]
     },
     {
-      "title": "Como Usamos os Dados",
-      "content": "Utilizamos os dados coletados para:",
+      "title": "Como Usamos Suas Informações",
+      "content": "Usamos as informações coletadas para os seguintes propósitos:",
       "items": [
-        "Funcionalidade: Autenticação, cloud save, sincronização",
-        "Análise: Melhorias no jogo e correção de bugs",
-        "Gerenciamento: Login e perfil do jogador"
+        "<strong>Funcionalidade do Aplicativo:</strong> Para habilitar recursos principais incluindo autenticação de usuário, sincronização de salvamento na nuvem, conquistas e placares",
+        "<strong>Análise:</strong> Para entender como os usuários interagem com o jogo, identificar recursos populares e medir o desempenho do aplicativo",
+        "<strong>Gerenciamento de Conta:</strong> Para gerenciar seu perfil de jogador, manter sua sessão de login e verificar credenciais",
+        "<strong>Melhorias e Correção de Bugs:</strong> Para diagnosticar problemas técnicos, corrigir bugs e melhorar o desempenho geral do jogo",
+        "<strong>Segurança e Prevenção de Fraudes:</strong> Para monitorar atividades suspeitas, prevenir acesso não autorizado e manter a integridade da experiência de jogo"
       ]
     },
     {
-      "title": "Compartilhamento de Dados",
-      "content": "Não compartilhamos seus dados com terceiros. O Google Play Games Services processa dados em nosso nome como provedor de serviços."
+      "title": "Compartilhamento de Dados e Terceiros",
+      "content": "Não vendemos ou compartilhamos seus dados pessoais com terceiros para fins de marketing. O único compartilhamento de dados que ocorre é:",
+      "items": [
+        "<strong>Google Play Games Services:</strong> Atua como provedor de serviços processando dados em nosso nome para habilitar salvamentos na nuvem, conquistas e placares. As práticas de privacidade do Google são regidas por sua própria <a href='https://policies.google.com/privacy?hl=pt-BR' target='_blank' rel='noopener noreferrer' style='color: #00d4ff;'>Política de Privacidade</a>",
+        "<strong>Google Play Billing:</strong> Processa compras no aplicativo de forma segura. Não temos acesso às informações do seu cartão de pagamento. Todos os dados de pagamento são tratados diretamente pelo Google Play de acordo com seus padrões de segurança"
+      ]
     },
     {
-      "title": "Segurança",
-      "content": "Todos os dados são criptografados em trânsito via HTTPS/TLS."
+      "title": "Coleta de Dados: Opcional vs. Obrigatória",
+      "content": "A maior parte da coleta de dados em nosso aplicativo é <strong>opcional</strong>. Você pode jogar sem fazer login no Google Play Games Services. No entanto, se você optar por não fazer login, certos recursos estarão indisponíveis:",
+      "items": [
+        "Sincronização de salvamento na nuvem entre dispositivos",
+        "Rastreamento e desbloqueio de conquistas",
+        "Participação e classificação em placares",
+        "Recursos sociais e interações com amigos"
+      ]
     },
     {
-      "title": "Seus Direitos",
-      "content": "Você pode solicitar exclusão dos seus dados enviando email para: contato@exemplo.com"
+      "title": "Segurança de Dados",
+      "content": "Levamos a segurança de suas informações a sério e implementamos medidas padrão da indústria:",
+      "items": [
+        "<strong>Criptografia em Trânsito:</strong> Todos os dados transmitidos entre seu dispositivo e nossos servidores são criptografados usando protocolos HTTPS/TLS",
+        "<strong>Armazenamento Seguro:</strong> Dados do jogo armazenados na nuvem são protegidos pela infraestrutura de segurança do Google Play Games Services",
+        "<strong>Controles de Acesso:</strong> Limitamos o acesso a informações pessoais apenas a pessoal autorizado"
+      ]
+    },
+    {
+      "title": "Compras no Aplicativo",
+      "content": "Nosso jogo oferece compras opcionais no aplicativo para moeda virtual (diamantes) e melhorias de jogo. Todas as compras são processadas de forma segura através do Google Play Billing. Não coletamos, armazenamos ou temos acesso às informações do seu cartão de pagamento. O histórico de compras pode ser armazenado localmente em seu dispositivo para fins de jogabilidade."
+    },
+    {
+      "title": "Privacidade de Crianças",
+      "content": "Este jogo é destinado a usuários com 18 anos ou mais. Não coletamos intencionalmente informações pessoais de crianças menores de 18 anos. Se você é pai ou responsável e acredita que seu filho nos forneceu informações pessoais, entre em contato conosco imediatamente e tomaremos medidas para remover tais informações."
+    },
+    {
+      "title": "Seus Direitos e Escolhas",
+      "content": "Você tem os seguintes direitos em relação aos seus dados pessoais:",
+      "items": [
+        "<strong>Acesso:</strong> Você pode solicitar informações sobre os dados que mantemos sobre você",
+        "<strong>Exclusão:</strong> Você pode solicitar a exclusão dos dados da sua conta entrando em contato conosco através do e-mail abaixo",
+        "<strong>Opt-Out:</strong> Você pode optar por não fazer login no Google Play Games Services para minimizar a coleta de dados",
+        "<strong>Portabilidade de Dados:</strong> Você pode solicitar uma cópia dos seus dados em formato estruturado"
+      ]
+    },
+    {
+      "title": "Retenção de Dados",
+      "content": "Retemos suas informações pessoais pelo tempo necessário para fornecer nossos serviços e cumprir os propósitos descritos nesta política. Se você solicitar a exclusão da sua conta, excluiremos seus dados dentro de 90 dias, exceto quando formos obrigados a retê-los por razões legais ou de segurança."
+    },
+    {
+      "title": "Alterações nesta Política de Privacidade",
+      "content": "Podemos atualizar esta Política de Privacidade periodicamente para refletir mudanças em nossas práticas ou por razões legais. Notificaremos você sobre quaisquer mudanças significativas atualizando a data de \"Última atualização\" no topo desta política. Seu uso contínuo do aplicativo após a publicação das alterações constitui aceitação da política atualizada."
+    },
+    {
+      "title": "Entre em Contato",
+      "content": "Se você tiver dúvidas, preocupações ou solicitações sobre esta Política de Privacidade ou nossas práticas de dados, entre em contato conosco em:",
+      "items": [
+        "<strong>E-mail:</strong> privacy@idlecryptotycoon.com",
+        "<strong>Tempo de Resposta:</strong> Buscamos responder todas as consultas dentro de 7 dias úteis"
+      ]
+    },
+    {
+      "title": "Conformidade Legal",
+      "content": "Esta Política de Privacidade está em conformidade com as leis aplicáveis de proteção de dados, incluindo, mas não se limitando ao Regulamento Geral de Proteção de Dados (GDPR) para usuários na União Europeia, a Lei Geral de Proteção de Dados (LGPD) para usuários no Brasil e a California Consumer Privacy Act (CCPA) para usuários na Califórnia, EUA."
     }
   ]
 }
