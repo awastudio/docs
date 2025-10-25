@@ -3,232 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy | Política de Privacidade - Idle Crypto Tycoon</title>
+    <title>Privacy Policy - Idle Crypto Tycoon</title>
     
-    <!-- Google Fonts - Fredoka One -->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Inter:wght@400;600&display=swap" rel="stylesheet">
     
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        :root {
-            /* Dark Theme Colors - remete a criptomoedas */
-            --bg-dark: #0f1419;
-            --bg-card: #1a1f2e;
-            --accent-cyan: #00d4ff;
-            --accent-gold: #ffd700;
-            --text-primary: #e8eaed;
-            --text-secondary: #9aa0a6;
-            --border-color: #2d3748;
-        }
-        
-        body {
-            background: linear-gradient(135deg, var(--bg-dark) 0%, #1a1f2e 100%);
-            color: var(--text-primary);
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            line-height: 1.6;
-            min-height: 100vh;
-            padding: 20px;
-        }
-        
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
-        
-        /* Language Switcher */
-        .language-switcher {
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-            margin-bottom: 40px;
-        }
-        
-        .lang-btn {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            padding: 12px 24px;
-            background: var(--bg-card);
-            border: 2px solid var(--border-color);
-            border-radius: 50px;
-            color: var(--text-secondary);
-            font-family: 'Fredoka One', cursive;
-            font-size: 1rem;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-        
-        .lang-btn:hover {
-            border-color: var(--accent-cyan);
-            transform: translateY(-2px);
-            box-shadow: 0 5px 20px rgba(0, 212, 255, 0.3);
-        }
-        
-        .lang-btn.active {
-            background: linear-gradient(135deg, var(--accent-cyan), var(--accent-gold));
-            border-color: var(--accent-cyan);
-            color: var(--bg-dark);
-            box-shadow: 0 5px 25px rgba(0, 212, 255, 0.5);
-        }
-        
-        .lang-btn .flag {
-            font-size: 1.5rem;
-        }
-        
-        /* Header com logo/título do jogo */
-        .header {
-            text-align: center;
-            margin-bottom: 60px;
-            padding-bottom: 30px;
-            border-bottom: 2px solid var(--accent-cyan);
-        }
-        
-        .game-title {
-            font-family: 'Fredoka One', cursive;
-            font-size: 3rem;
-            background: linear-gradient(135deg, var(--accent-cyan), var(--accent-gold));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            margin-bottom: 10px;
-            text-shadow: 0 0 30px rgba(0, 212, 255, 0.3);
-        }
-        
-        .subtitle {
-            font-size: 1.2rem;
-            color: var(--text-secondary);
-            font-weight: 400;
-        }
-        
-        /* Language sections */
-        .language-section {
-            background: var(--bg-card);
-            border: 1px solid var(--border-color);
-            border-radius: 16px;
-            padding: 40px;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
-            display: none;
-            animation: fadeIn 0.5s ease;
-        }
-        
-        .language-section.active {
-            display: block;
-        }
-        
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-        
-        .language-header {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            margin-bottom: 30px;
-            padding-bottom: 20px;
-            border-bottom: 2px solid var(--border-color);
-        }
-        
-        .flag-large {
-            font-size: 2.5rem;
-        }
-        
-        .language-title {
-            font-family: 'Fredoka One', cursive;
-            font-size: 2rem;
-            color: var(--accent-cyan);
-        }
-        
-        /* Content styling */
-        .content h2 {
-            font-family: 'Fredoka One', cursive;
-            color: var(--accent-gold);
-            font-size: 1.8rem;
-            margin-top: 30px;
-            margin-bottom: 15px;
-        }
-        
-        .content h3 {
-            font-family: 'Fredoka One', cursive;
-            color: var(--accent-cyan);
-            font-size: 1.3rem;
-            margin-top: 25px;
-            margin-bottom: 12px;
-        }
-        
-        .content p {
-            color: var(--text-primary);
-            margin-bottom: 16px;
-            font-size: 1rem;
-        }
-        
-        .content ul {
-            margin: 15px 0;
-            padding-left: 30px;
-        }
-        
-        .content li {
-            margin-bottom: 10px;
-            color: var(--text-secondary);
-        }
-        
-        .content strong {
-            color: var(--accent-gold);
-            font-weight: 600;
-        }
-        
-        /* Last updated badge */
-        .last-updated {
-            display: inline-block;
-            background: rgba(0, 212, 255, 0.1);
-            border: 1px solid var(--accent-cyan);
-            border-radius: 20px;
-            padding: 8px 20px;
-            font-size: 0.9rem;
-            color: var(--accent-cyan);
-            margin-bottom: 25px;
-        }
-        
-        /* Responsive */
-        @media (max-width: 768px) {
-            .game-title {
-                font-size: 2rem;
-            }
-            
-            .language-section {
-                padding: 25px;
-            }
-            
-            .content h2 {
-                font-size: 1.5rem;
-            }
-            
-            .lang-btn {
-                padding: 10px 18px;
-                font-size: 0.9rem;
-            }
-        }
-    </style>
+    <!-- CSS externo -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="container">
         <!-- Language Switcher -->
         <div class="language-switcher">
-            <button class="lang-btn active" onclick="switchLanguage('pt-br')" id="btn-pt">
+            <button class="lang-btn active" onclick="switchLanguage('pt-br')" id="btn-pt-br">
                 <span class="flag">🇧🇷</span>
                 <span>Português</span>
             </button>
@@ -241,83 +30,23 @@
         <!-- Header -->
         <div class="header">
             <h1 class="game-title">⛏️ Idle Crypto Tycoon</h1>
-            <p class="subtitle" id="subtitle">Política de Privacidade</p>
+            <p class="subtitle" id="subtitle">Carregando...</p>
         </div>
         
-        <!-- PORTUGUÊS -->
-        <section class="language-section active" id="pt-br">
+        <!-- Content Container -->
+        <section class="language-section" id="content">
             <div class="language-header">
-                <span class="flag-large">🇧🇷</span>
-                <h2 class="language-title">Política de Privacidade</h2>
+                <span class="flag-large" id="flag-large">🇧🇷</span>
+                <h2 class="language-title" id="page-title">Carregando...</h2>
             </div>
             
-            <div class="content">
-                <span class="last-updated">📅 Última atualização: 24 de outubro de 2025</span>
-                
-                <h2>Texto PT-BR</h2>
-                <p>Conteúdo em português será adicionado aqui.</p>
-                
-                <h3>Exemplo de Seção</h3>
-                <p>Este é um exemplo de como o texto ficará formatado.</p>
-                
-                <ul>
-                    <li>Item de exemplo 1</li>
-                    <li>Item de exemplo 2</li>
-                    <li>Item de exemplo 3</li>
-                </ul>
-            </div>
-        </section>
-        
-        <!-- ENGLISH -->
-        <section class="language-section" id="en">
-            <div class="language-header">
-                <span class="flag-large">🇺🇸</span>
-                <h2 class="language-title">Privacy Policy</h2>
-            </div>
-            
-            <div class="content">
-                <span class="last-updated">📅 Last updated: October 24, 2025</span>
-                
-                <h2>Text EN</h2>
-                <p>English content will be added here.</p>
-                
-                <h3>Example Section</h3>
-                <p>This is an example of how the text will be formatted.</p>
-                
-                <ul>
-                    <li>Example item 1</li>
-                    <li>Example item 2</li>
-                    <li>Example item 3</li>
-                </ul>
+            <div class="content" id="main-content">
+                <p>Carregando conteúdo...</p>
             </div>
         </section>
     </div>
     
-    <script>
-        function switchLanguage(lang) {
-            // Remove active class from all sections and buttons
-            document.querySelectorAll('.language-section').forEach(section => {
-                section.classList.remove('active');
-            });
-            document.querySelectorAll('.lang-btn').forEach(btn => {
-                btn.classList.remove('active');
-            });
-            
-            // Add active class to selected language
-            document.getElementById(lang).classList.add('active');
-            document.getElementById('btn-' + lang).classList.add('active');
-            
-            // Update subtitle
-            const subtitle = document.getElementById('subtitle');
-            if (lang === 'pt-br') {
-                subtitle.textContent = 'Política de Privacidade';
-            } else {
-                subtitle.textContent = 'Privacy Policy';
-            }
-            
-            // Update page language attribute
-            document.documentElement.lang = lang;
-        }
-    </script>
+    <!-- JavaScript externo -->
+    <script src="js/script.js"></script>
 </body>
 </html>
