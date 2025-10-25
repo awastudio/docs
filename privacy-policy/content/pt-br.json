@@ -1,0 +1,103 @@
+{
+  "subtitle": "Política de Privacidade",
+  "flag": "🇧🇷",
+  "pageTitle": "Política de Privacidade",
+  "lastUpdated": "Última atualização: 24 de outubro de 2025",
+  "sections": [
+    {
+      "title": "Introdução",
+      "content": "Esta Política de Privacidade descreve como o Idle Crypto Tycoon (\"nós\", \"nosso\" ou \"o aplicativo\") coleta, usa e protege suas informações pessoais quando você utiliza nosso jogo mobile. Ao usar o aplicativo, você concorda com a coleta e uso de informações de acordo com esta política."
+    },
+    {
+      "title": "Informações que Coletamos",
+      "content": "Nosso jogo coleta os seguintes tipos de dados através do Google Play Games Services, Unity Ads e funcionalidades internas do aplicativo:",
+      "items": [
+        "<strong>IDs de Usuário:</strong> Identificadores únicos associados à sua conta do Google Play Games para autenticação e funcionalidade de salvamento na nuvem",
+        "<strong>Progresso do Jogo:</strong> Conquistas, pontuações em placares e dados de jogo salvos na nuvem",
+        "<strong>Informações do Dispositivo:</strong> Identificadores de dispositivo, versão do sistema operacional e modelo do dispositivo para diagnósticos técnicos",
+        "<strong>Dados de Desempenho:</strong> Registros de falhas, relatórios de erros e informações de diagnóstico para melhorar a estabilidade do aplicativo",
+        "<strong>Interações no Aplicativo:</strong> Informações sobre como você interage com o jogo, como recursos utilizados e duração da sessão para fins de análise",
+        "<strong>Dados de Publicidade:</strong> O Unity Ads pode coletar identificadores do dispositivo, métricas de engajamento com anúncios e dados de localização aproximada para exibir e otimizar anúncios dentro do jogo"
+      ]
+    },
+    {
+      "title": "Como Usamos Suas Informações",
+      "content": "Usamos as informações coletadas para os seguintes propósitos:",
+      "items": [
+        "<strong>Funcionalidade do Aplicativo:</strong> Para habilitar recursos principais, como autenticação de usuário, sincronização de salvamento na nuvem, conquistas e placares",
+        "<strong>Análise:</strong> Para entender como os jogadores interagem com o jogo, identificar recursos populares e medir o desempenho do aplicativo",
+        "<strong>Gerenciamento de Conta:</strong> Para gerenciar seu perfil de jogador, manter sua sessão de login e verificar credenciais",
+        "<strong>Melhorias e Correção de Bugs:</strong> Para diagnosticar problemas técnicos, corrigir falhas e melhorar o desempenho geral do jogo",
+        "<strong>Segurança e Prevenção de Fraudes:</strong> Para monitorar atividades suspeitas, prevenir acesso não autorizado e manter a integridade da experiência de jogo",
+        "<strong>Publicidade:</strong> Para exibir e personalizar anúncios recompensados ou intersticiais fornecidos pelo Unity Ads"
+      ]
+    },
+    {
+      "title": "Compartilhamento de Dados e Terceiros",
+      "content": "Não vendemos nem compartilhamos seus dados pessoais com terceiros para fins de marketing. O compartilhamento de dados ocorre apenas nos seguintes casos:",
+      "items": [
+        "<strong>Google Play Games Services:</strong> Atua como provedor de serviços processando dados em nosso nome para habilitar salvamentos na nuvem, conquistas e placares. As práticas de privacidade do Google são regidas por sua própria <a href='https://policies.google.com/privacy?hl=pt-BR' target='_blank' rel='noopener noreferrer' style='color: #00d4ff;'>Política de Privacidade</a>",
+        "<strong>Google Play Billing:</strong> Processa compras no aplicativo de forma segura. Não temos acesso às informações do seu cartão de pagamento. Todos os dados de pagamento são tratados diretamente pelo Google Play de acordo com seus padrões de segurança",
+        "<strong>Unity Ads:</strong> Utilizado para exibir anúncios recompensados e intersticiais dentro do jogo. O Unity pode coletar identificadores de dispositivo, endereço IP e dados de engajamento com anúncios para fornecer anúncios relevantes e medir desempenho. Para mais detalhes, consulte a <a href='https://unity.com/legal/privacy-policy' target='_blank' rel='noopener noreferrer' style='color: #00d4ff;'>Política de Privacidade da Unity</a>"
+      ]
+    },
+    {
+      "title": "Coleta de Dados: Opcional vs. Obrigatória",
+      "content": "A maior parte da coleta de dados em nosso aplicativo é <strong>opcional</strong>. Você pode jogar sem fazer login no Google Play Games Services. No entanto, se optar por não fazer login, alguns recursos ficarão indisponíveis:",
+      "items": [
+        "Sincronização de salvamento na nuvem entre dispositivos",
+        "Rastreamento e desbloqueio de conquistas",
+        "Participação e classificação em placares",
+        "Recursos sociais e interações com amigos"
+      ]
+    },
+    {
+      "title": "Segurança de Dados",
+      "content": "Levamos a segurança de suas informações a sério e implementamos medidas reconhecidas pela indústria:",
+      "items": [
+        "<strong>Criptografia em Trânsito:</strong> Todos os dados transmitidos entre seu dispositivo e nossos servidores são protegidos por protocolos HTTPS/TLS",
+        "<strong>Armazenamento Seguro:</strong> Dados do jogo armazenados na nuvem são protegidos pela infraestrutura de segurança do Google Play Games Services",
+        "<strong>Controles de Acesso:</strong> O acesso a informações pessoais é limitado apenas a pessoal autorizado"
+      ]
+    },
+    {
+      "title": "Compras no Aplicativo",
+      "content": "Nosso jogo oferece compras opcionais no aplicativo para moeda virtual (diamantes) e melhorias de jogabilidade. Todas as compras são processadas de forma segura através do Google Play Billing. Não coletamos, armazenamos ou temos acesso às informações do seu cartão de pagamento. O histórico de compras pode ser armazenado localmente em seu dispositivo para fins de jogabilidade."
+    },
+    {
+      "title": "Privacidade de Crianças",
+      "content": "Este jogo é destinado a usuários com 13 anos ou mais. Não coletamos intencionalmente informações pessoais de crianças menores de 13 anos. Se você é pai ou responsável e acredita que seu filho nos forneceu informações pessoais, entre em contato conosco imediatamente para que possamos remover tais informações."
+    },
+    {
+      "title": "Seus Direitos e Escolhas",
+      "content": "Você possui os seguintes direitos em relação aos seus dados pessoais:",
+      "items": [
+        "<strong>Acesso:</strong> Solicitar informações sobre os dados que mantemos sobre você",
+        "<strong>Exclusão:</strong> Solicitar a exclusão dos dados da sua conta entrando em contato conosco pelo e-mail abaixo",
+        "<strong>Opt-Out:</strong> Optar por não fazer login no Google Play Games Services para minimizar a coleta de dados",
+        "<strong>Preferências de Anúncios:</strong> Ajustar as configurações de personalização de anúncios em seu dispositivo ou na sua conta do Google",
+        "<strong>Portabilidade de Dados:</strong> Solicitar uma cópia dos seus dados em formato estruturado"
+      ]
+    },
+    {
+      "title": "Retenção de Dados",
+      "content": "Mantemos suas informações pessoais apenas pelo tempo necessário para fornecer nossos serviços e cumprir os propósitos descritos nesta política. Caso solicite a exclusão da sua conta, seus dados serão removidos dentro de 90 dias, exceto quando a retenção for exigida por motivos legais ou de segurança."
+    },
+    {
+      "title": "Alterações nesta Política de Privacidade",
+      "content": "Podemos atualizar esta Política de Privacidade periodicamente para refletir mudanças em nossas práticas ou por exigências legais. Notificaremos você sobre alterações significativas atualizando a data de \"Última atualização\" no topo desta política. O uso contínuo do aplicativo após a publicação das alterações implica na aceitação da nova versão."
+    },
+    {
+      "title": "Entre em Contato",
+      "content": "Se você tiver dúvidas, preocupações ou solicitações sobre esta Política de Privacidade ou nossas práticas de dados, entre em contato conosco:",
+      "items": [
+        "<strong>E-mail:</strong> awa.studio.games@gmail.com",
+        "<strong>Tempo de Resposta:</strong> Procuramos responder todas as solicitações dentro de 7 dias úteis"
+      ]
+    },
+    {
+      "title": "Conformidade Legal",
+      "content": "Esta Política de Privacidade está em conformidade com as leis de proteção de dados aplicáveis, incluindo o Regulamento Geral de Proteção de Dados (GDPR) para usuários na União Europeia, a Lei Geral de Proteção de Dados (LGPD) para usuários no Brasil e a California Consumer Privacy Act (CCPA) para usuários na Califórnia, EUA."
+    }
+  ]
+}
