@@ -1,0 +1,39 @@
+{
+  "subtitle": "Política de Privacidade",
+  "flag": "🇧🇷",
+  "pageTitle": "Política de Privacidade",
+  "lastUpdated": "Última atualização: 24 de outubro de 2025",
+  "sections": [
+    {
+      "title": "Informações Coletadas",
+      "content": "Nosso jogo coleta os seguintes dados através do Google Play Games Services:",
+      "items": [
+        "IDs de usuários: Para autenticação e salvamento na nuvem",
+        "Progresso do jogo: Conquistas, placares, saves",
+        "Dados de desempenho: Registros de falhas e diagnósticos",
+        "Interações no app: Para análise de uso"
+      ]
+    },
+    {
+      "title": "Como Usamos os Dados",
+      "content": "Utilizamos os dados coletados para:",
+      "items": [
+        "Funcionalidade: Autenticação, cloud save, sincronização",
+        "Análise: Melhorias no jogo e correção de bugs",
+        "Gerenciamento: Login e perfil do jogador"
+      ]
+    },
+    {
+      "title": "Compartilhamento de Dados",
+      "content": "Não compartilhamos seus dados com terceiros. O Google Play Games Services processa dados em nosso nome como provedor de serviços."
+    },
+    {
+      "title": "Segurança",
+      "content": "Todos os dados são criptografados em trânsito via HTTPS/TLS."
+    },
+    {
+      "title": "Seus Direitos",
+      "content": "Você pode solicitar exclusão dos seus dados enviando email para: contato@exemplo.com"
+    }
+  ]
+}
