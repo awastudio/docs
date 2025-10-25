@@ -1,21 +1,8 @@
 let currentLanguage = 'en';
 let currentDocument = 'privacy';
 
-function getDocumentFromURL() {
-    const urlParams = new URLSearchParams(window.location.search);
-    const doc = urlParams.get('doc');
-    return (doc === 'terms') ? 'terms' : 'privacy';
-}
-
 document.addEventListener('DOMContentLoaded', function() {
-    const initialDoc = getDocumentFromURL();
-    currentDocument = initialDoc;
-    loadDocument(initialDoc, 'en');
-
-    document.querySelectorAll('.tab-btn').forEach(btn => {
-        btn.classList.remove('active');
-    });
-    document.getElementById('tab-' + initialDoc).classList.add('active');
+    loadDocument('privacy', 'en');
 });
 
 function switchLanguage(lang) {
@@ -31,11 +18,6 @@ function switchLanguage(lang) {
 function switchDocument(doc) {
     currentDocument = doc;
     loadDocument(doc, currentLanguage);
-
-    const newURL = doc === 'privacy' 
-        ? window.location.pathname 
-        : window.location.pathname + '?doc=' + doc;
-    window.history.pushState({doc: doc}, '', newURL);
 
     document.querySelectorAll('.tab-btn').forEach(btn => {
         btn.classList.remove('active');
@@ -53,8 +35,6 @@ async function loadDocument(doc, lang) {
         document.getElementById('flag-large').textContent = data.flag;
         document.getElementById('page-title').textContent = data.pageTitle;
         document.documentElement.lang = lang;
-
-        document.title = `${data.pageTitle} - Idle Crypto Tycoon`;
 
         updateTabTexts(lang);
 
@@ -86,28 +66,14 @@ function updateTabTexts(lang) {
     const tabTexts = {
         'en': {
             privacy: 'Privacy Policy',
-            terms: 'Terms of Service',
-            subtitle: 'Legal Documents'
+            terms: 'Terms of Service'
         },
         'pt-br': {
             privacy: 'Política de Privacidade',
-            terms: 'Termos de Uso',
-            subtitle: 'Documentos Legais'
+            terms: 'Termos de Uso'
         }
     };
 
     document.getElementById('tab-privacy-text').textContent = tabTexts[lang].privacy;
     document.getElementById('tab-terms-text').textContent = tabTexts[lang].terms;
-    document.getElementById('subtitle').textContent = tabTexts[lang].subtitle;
 }
-
-window.addEventListener('popstate', function(event) {
-    const doc = getDocumentFromURL();
-    currentDocument = doc;
-    loadDocument(doc, currentLanguage);
-
-    document.querySelectorAll('.tab-btn').forEach(btn => {
-        btn.classList.remove('active');
-    });
-    document.getElementById('tab-' + doc).classList.add('active');
-});
