@@ -1,0 +1,103 @@
+{
+  "subtitle": "Privacy Policy",
+  "flag": "🇺🇸",
+  "pageTitle": "Privacy Policy",
+  "lastUpdated": "Last updated: October 24, 2025",
+  "sections": [
+    {
+      "title": "Introduction",
+      "content": "This Privacy Policy describes how Idle Crypto Tycoon (\"we\", \"our\", or \"the app\") collects, uses, and protects your personal information when you use our mobile game. By using the app, you agree to the collection and use of information in accordance with this policy."
+    },
+    {
+      "title": "Information We Collect",
+      "content": "Our game collects the following types of data through Google Play Games Services, Unity Ads, and in-app functionality:",
+      "items": [
+        "<strong>User IDs:</strong> Unique identifiers associated with your Google Play Games account for authentication and cloud save functionality",
+        "<strong>Game Progress:</strong> Achievements, leaderboard scores, and saved game data stored in the cloud",
+        "<strong>Device Information:</strong> Device identifiers, operating system version, and device model for technical diagnostics",
+        "<strong>Performance Data:</strong> Crash logs, error reports, and diagnostic information to improve app stability",
+        "<strong>App Interactions:</strong> Information about how you interact with the game, such as features used and session duration for analytics purposes",
+        "<strong>Advertising Data:</strong> Unity Ads may collect device identifiers, ad engagement metrics, and general location data to deliver and optimize in-game ads"
+      ]
+    },
+    {
+      "title": "How We Use Your Information",
+      "content": "We use the collected information for the following purposes:",
+      "items": [
+        "<strong>App Functionality:</strong> To enable core features including user authentication, cloud save synchronization, achievements, and leaderboards",
+        "<strong>Analytics:</strong> To understand how users interact with the game, identify popular features, and measure app performance",
+        "<strong>Account Management:</strong> To manage your player profile, maintain your login session, and verify credentials",
+        "<strong>Improvements and Bug Fixes:</strong> To diagnose technical issues, fix bugs, and improve overall game performance",
+        "<strong>Security and Fraud Prevention:</strong> To monitor for suspicious activity, prevent unauthorized access, and maintain the integrity of the gaming experience",
+        "<strong>Advertising:</strong> To serve and personalize rewarded or interstitial ads provided by Unity Ads"
+      ]
+    },
+    {
+      "title": "Data Sharing and Third Parties",
+      "content": "We do not sell or share your personal data with third parties for their marketing purposes. The only data sharing that occurs is:",
+      "items": [
+        "<strong>Google Play Games Services:</strong> Acts as a service provider processing data on our behalf to enable cloud saves, achievements, and leaderboards. Google's privacy practices are governed by their own <a href='https://policies.google.com/privacy' target='_blank' rel='noopener noreferrer' style='color: #00d4ff;'>Privacy Policy</a>",
+        "<strong>Google Play Billing:</strong> Processes in-app purchases securely. We do not have access to your payment card information. All payment data is handled directly by Google Play according to their security standards",
+        "<strong>Unity Ads:</strong> Used to display rewarded and interstitial ads within the app. Unity may collect device identifiers, IP address, and ad engagement data to deliver relevant ads and measure performance. For details, see the <a href='https://unity.com/legal/privacy-policy' target='_blank' rel='noopener noreferrer' style='color: #00d4ff;'>Unity Privacy Policy</a>"
+      ]
+    },
+    {
+      "title": "Data Collection: Optional vs. Required",
+      "content": "Most data collection in our app is <strong>optional</strong>. You can play the game without logging into Google Play Games Services. However, if you choose not to log in, certain features will be unavailable:",
+      "items": [
+        "Cloud save synchronization across devices",
+        "Achievement tracking and unlocks",
+        "Leaderboard participation and rankings",
+        "Social features and friend interactions"
+      ]
+    },
+    {
+      "title": "Data Security",
+      "content": "We take the security of your information seriously and implement industry-standard measures:",
+      "items": [
+        "<strong>Encryption in Transit:</strong> All data transmitted between your device and our servers is encrypted using HTTPS/TLS protocols",
+        "<strong>Secure Storage:</strong> Game data stored in the cloud is protected by Google Play Games Services security infrastructure",
+        "<strong>Access Controls:</strong> We limit access to personal information to authorized personnel only"
+      ]
+    },
+    {
+      "title": "In-App Purchases",
+      "content": "Our game offers optional in-app purchases for virtual currency (diamonds) and game boosts. All purchases are processed securely through Google Play Billing. We do not collect, store, or have access to your payment card information. Purchase history may be stored locally on your device for gameplay purposes."
+    },
+    {
+      "title": "Children's Privacy",
+      "content": "This game is intended for users aged 13 and older. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately, and we will take steps to remove such information."
+    },
+    {
+      "title": "Your Rights and Choices",
+      "content": "You have the following rights regarding your personal data:",
+      "items": [
+        "<strong>Access:</strong> You can request information about the data we hold about you",
+        "<strong>Deletion:</strong> You can request deletion of your account data by contacting us at the email below",
+        "<strong>Opt-Out:</strong> You can choose not to log into Google Play Games Services to minimize data collection",
+        "<strong>Ad Preferences:</strong> You can adjust ad personalization settings through your device or Google account settings",
+        "<strong>Data Portability:</strong> You can request a copy of your data in a structured format"
+      ]
+    },
+    {
+      "title": "Data Retention",
+      "content": "We retain your personal information for as long as necessary to provide our services and fulfill the purposes outlined in this policy. If you request deletion of your account, we will delete your data within 90 days, except where we are required to retain it for legal or security reasons."
+    },
+    {
+      "title": "Changes to This Privacy Policy",
+      "content": "We may update this Privacy Policy from time to time to reflect changes in our practices or for legal reasons. We will notify you of any significant changes by updating the \"Last updated\" date at the top of this policy. Your continued use of the app after changes are posted constitutes acceptance of the updated policy."
+    },
+    {
+      "title": "Contact Us",
+      "content": "If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us at:",
+      "items": [
+        "<strong>Email:</strong> awa.studio.games@gmail.com",
+        "<strong>Response Time:</strong> We aim to respond to all inquiries within 7 business days"
+      ]
+    },
+    {
+      "title": "Legal Compliance",
+      "content": "This Privacy Policy complies with applicable data protection laws, including the General Data Protection Regulation (GDPR) for users in the European Economic Area (EEA) and the California Consumer Privacy Act (CCPA) for users in California, USA."
+    }
+  ]
+}
