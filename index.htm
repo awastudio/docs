@@ -3,23 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Idle Crypto Tycoon</title>
-
-    <link rel="icon" type="image/png" href="favicon.png">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <title>Legal Documents - Idle Crypto Tycoon</title>
     
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Inter:wght@400;600&display=swap" rel="stylesheet">
     
-    
+    <!-- CSS externo -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="container">
-        
+        <!-- Language Switcher -->
         <div class="language-switcher">
-            
             <button class="lang-btn active" onclick="switchLanguage('en')" id="btn-en">
                 <span class="flag">🇺🇸</span>
                 <span>English</span>
@@ -30,26 +31,38 @@
             </button>
         </div>
         
-        
+        <!-- Header -->
         <div class="header">
-            <h1 class="game-title">Idle Crypto Tycoon</h1>
-            <p class="subtitle" id="subtitle">Loading...</p> 
+            <h1 class="game-title">⛏️ Idle Crypto Tycoon</h1>
+            <p class="subtitle" id="subtitle">Legal Documents</p>
+        </div>
+
+        <!-- Document Tabs -->
+        <div class="tabs">
+            <button class="tab-btn active" onclick="switchDocument('privacy')" id="tab-privacy">
+                <span>📜</span>
+                <span id="tab-privacy-text">Privacy Policy</span>
+            </button>
+            <button class="tab-btn" onclick="switchDocument('terms')" id="tab-terms">
+                <span>📋</span>
+                <span id="tab-terms-text">Terms of Service</span>
+            </button>
         </div>
         
-        
+        <!-- Content Container -->
         <section class="language-section" id="content">
             <div class="language-header">
-                <span class="flag-large" id="flag-large">🇺🇸</span> 
+                <span class="flag-large" id="flag-large">🇺🇸</span>
                 <h2 class="language-title" id="page-title">Loading...</h2>
             </div>
             
             <div class="content" id="main-content">
-                <p>Loading content...</p> 
+                <p>Loading content...</p>
             </div>
         </section>
     </div>
     
-    
+    <!-- JavaScript externo -->
     <script src="js/script.js"></script>
 </body>
 </html>
