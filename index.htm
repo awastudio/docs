@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">  <!-- Mudou de pt-BR para en -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,31 +17,32 @@
     <div class="container">
         <!-- Language Switcher -->
         <div class="language-switcher">
-            <button class="lang-btn active" onclick="switchLanguage('pt-br')" id="btn-pt-br">
-                <span class="flag">🇧🇷</span>
-                <span>Português</span>
-            </button>
-            <button class="lang-btn" onclick="switchLanguage('en')" id="btn-en">
+            <!-- Inglês agora é o primeiro e ativo -->
+            <button class="lang-btn active" onclick="switchLanguage('en')" id="btn-en">
                 <span class="flag">🇺🇸</span>
                 <span>English</span>
+            </button>
+            <button class="lang-btn" onclick="switchLanguage('pt-br')" id="btn-pt-br">
+                <span class="flag">🇧🇷</span>
+                <span>Português</span>
             </button>
         </div>
         
         <!-- Header -->
         <div class="header">
             <h1 class="game-title">⛏️ Idle Crypto Tycoon</h1>
-            <p class="subtitle" id="subtitle">Carregando...</p>
+            <p class="subtitle" id="subtitle">Loading...</p> <!-- Loading em inglês -->
         </div>
         
         <!-- Content Container -->
         <section class="language-section" id="content">
             <div class="language-header">
-                <span class="flag-large" id="flag-large">🇧🇷</span>
-                <h2 class="language-title" id="page-title">Carregando...</h2>
+                <span class="flag-large" id="flag-large">🇺🇸</span> <!-- Bandeira USA -->
+                <h2 class="language-title" id="page-title">Loading...</h2>
             </div>
             
             <div class="content" id="main-content">
-                <p>Carregando conteúdo...</p>
+                <p>Loading content...</p> <!-- Loading em inglês -->
             </div>
         </section>
     </div>
