@@ -29,9 +29,6 @@ body {
     padding: 40px 20px;
 }
 
-/* ========================================
-   NAVIGATION TABS (Privacy/Terms)
-========================================= */
 .doc-nav {
     display: flex;
     justify-content: center;
@@ -91,9 +88,6 @@ body {
     border-radius: 10px;
 }
 
-/* ========================================
-   HEADER
-========================================= */
 .header {
     text-align: center;
     margin-bottom: 20px;
@@ -115,7 +109,6 @@ body {
     font-weight: 600;
 }
 
-/* Divider (cyan line) */
 .divider {
     height: 2px;
     background: var(--accent-cyan);
@@ -124,17 +117,11 @@ body {
     box-shadow: 0 0 15px rgba(0, 212, 255, 0.3);
 }
 
-/* ========================================
-   DOCUMENT BOX (SEM fundo agora!)
-========================================= */
 .document-box {
-    /* Removido background e borders */
+    
     padding: 0;
 }
 
-/* ========================================
-   TOP BAR (Last Updated + Language Selector)
-========================================= */
 .top-bar {
     display: flex;
     justify-content: space-between;
@@ -159,9 +146,6 @@ body {
     font-weight: 600;
 }
 
-/* ========================================
-   LANGUAGE DROPDOWN
-========================================= */
 .language-selector {
     position: relative;
 }
@@ -202,16 +186,12 @@ body {
     padding: 10px;
 }
 
-/* Content Divider (removido pois não precisa mais) */
 .content-divider {
     display: none;
 }
 
-/* ========================================
-   CONTENT STYLING
-========================================= */
 .content {
-    /* Conteúdo sem caixa agora */
+    
 }
 
 .content h2 {
@@ -269,9 +249,6 @@ body {
     border-bottom-color: var(--accent-cyan);
 }
 
-/* ========================================
-   RESPONSIVE
-========================================= */
 @media (max-width: 768px) {
     body {
         padding: 10px;
