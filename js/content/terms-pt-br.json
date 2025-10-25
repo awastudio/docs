@@ -1,0 +1,104 @@
+{
+  "subtitle": "Termos de Uso",
+  "flag": "🇧🇷",
+  "pageTitle": "Termos de Uso",
+  "lastUpdated": "Última atualização: 24 de outubro de 2025",
+  "sections": [
+    {
+      "title": "Aceitação dos Termos",
+      "content": "Ao baixar, instalar ou usar o Idle Crypto Tycoon (\"o Jogo\"), você concorda em estar vinculado a estes Termos de Uso. Se você não concordar com estes termos, por favor, não use o Jogo."
+    },
+    {
+      "title": "Licença de Uso",
+      "content": "Concedemos a você uma licença limitada, não exclusiva, intransferível e revogável para acessar e usar o Jogo para fins pessoais e não comerciais de entretenimento. Você não pode:",
+      "items": [
+        "Copiar, modificar ou distribuir o Jogo ou qualquer parte dele",
+        "Fazer engenharia reversa, descompilar ou desmontar o Jogo",
+        "Usar o Jogo para qualquer finalidade comercial ou exibição pública",
+        "Remover ou alterar quaisquer avisos de direitos autorais, marcas registradas ou avisos proprietários",
+        "Usar cheats, exploits, software de automação, bots, hacks, mods ou qualquer software de terceiros não autorizado"
+      ]
+    },
+    {
+      "title": "Moeda Virtual e Compras no Aplicativo",
+      "content": "O Jogo pode oferecer moeda virtual (\"Diamantes\") e outros itens virtuais para compra usando dinheiro real. Ao fazer uma compra, você concorda com o seguinte:",
+      "items": [
+        "<strong>Sem Valor Real:</strong> Moeda virtual e itens não possuem valor monetário fora do Jogo e não podem ser trocados por dinheiro real",
+        "<strong>Todas as Vendas São Finais:</strong> As compras são finais e não reembolsáveis, exceto quando exigido por lei",
+        "<strong>Faturamento:</strong> Todas as compras são processadas através do Google Play Billing. Não temos acesso às suas informações de pagamento",
+        "<strong>Mudanças de Preço:</strong> Reservamos o direito de modificar preços a qualquer momento sem aviso prévio",
+        "<strong>Sem Garantia:</strong> Não garantimos a disponibilidade contínua de quaisquer itens virtuais ou moeda"
+      ]
+    },
+    {
+      "title": "Conta e Login",
+      "content": "Para acessar certos recursos, você pode fazer login usando o Google Play Games Services. Ao fazê-lo:",
+      "items": [
+        "Você concorda em cumprir os Termos de Serviço do Google",
+        "Você é responsável por manter a segurança da sua conta",
+        "Você não deve compartilhar suas credenciais de conta com outras pessoas",
+        "Você deve nos notificar imediatamente sobre qualquer uso não autorizado da sua conta"
+      ]
+    },
+    {
+      "title": "Conduta do Usuário",
+      "content": "Ao usar o Jogo, você concorda em:",
+      "items": [
+        "Cumprir todas as leis e regulamentos aplicáveis",
+        "Não se envolver em trapaças, hacking ou exploração de bugs",
+        "Não assediar, abusar ou prejudicar outros jogadores",
+        "Não se passar por qualquer pessoa ou entidade",
+        "Não carregar ou transmitir vírus ou código malicioso",
+        "Não usar nomes de usuário ofensivos ou inadequados"
+      ]
+    },
+    {
+      "title": "Suspensão e Encerramento",
+      "content": "Reservamos o direito de suspender ou encerrar seu acesso ao Jogo, com ou sem aviso, por qualquer motivo, incluindo, mas não se limitando a:",
+      "items": [
+        "Violação destes Termos de Uso",
+        "Atividade fraudulenta ou ilegal",
+        "Uso de cheats, hacks ou software não autorizado",
+        "Comportamento abusivo em relação a outros jogadores ou nossa equipe"
+      ]
+    },
+    {
+      "title": "Propriedade Intelectual",
+      "content": "Todo o conteúdo do Jogo, incluindo, mas não se limitando a gráficos, textos, música, código e marcas registradas, é propriedade da AWA Studio ou de seus licenciadores e é protegido por leis de direitos autorais e propriedade intelectual. Você não pode usar qualquer conteúdo do Jogo sem nossa permissão expressa por escrito."
+    },
+    {
+      "title": "Isenção de Garantias",
+      "content": "O Jogo é fornecido \"COMO ESTÁ\" e \"CONFORME DISPONÍVEL\", sem garantias de qualquer tipo, expressas ou implícitas. Não garantimos que:",
+      "items": [
+        "O Jogo será ininterrupto ou livre de erros",
+        "Os defeitos serão corrigidos",
+        "O Jogo está livre de vírus ou outros componentes prejudiciais",
+        "Os dados do jogo serão salvos ou copiados com sucesso"
+      ]
+    },
+    {
+      "title": "Limitação de Responsabilidade",
+      "content": "Na extensão máxima permitida por lei, a AWA Studio não será responsável por quaisquer danos indiretos, incidentais, especiais, consequenciais ou punitivos, incluindo, mas não se limitando a perda de dados, perda de lucros ou perda de progresso no jogo, decorrentes de ou relacionados ao seu uso do Jogo."
+    },
+    {
+      "title": "Alterações no Jogo",
+      "content": "Reservamos o direito de modificar, atualizar ou descontinuar o Jogo ou qualquer parte dele a qualquer momento, com ou sem aviso. Não somos responsáveis perante você ou qualquer terceiro por qualquer modificação, suspensão ou descontinuação do Jogo."
+    },
+    {
+      "title": "Alterações nos Termos",
+      "content": "Podemos atualizar estes Termos de Uso periodicamente. As alterações entrarão em vigor imediatamente após a publicação. O uso contínuo do Jogo após a publicação das alterações constitui aceitação dos Termos atualizados."
+    },
+    {
+      "title": "Lei Aplicável",
+      "content": "Estes Termos serão regidos e interpretados de acordo com as leis do Brasil, sem considerar seus princípios de conflito de leis. Quaisquer disputas decorrentes destes Termos ou do Jogo serão resolvidas nos tribunais do Brasil."
+    },
+    {
+      "title": "Entre em Contato",
+      "content": "Se você tiver dúvidas ou preocupações sobre estes Termos de Uso, entre em contato conosco:",
+      "items": [
+        "<strong>E-mail:</strong> awa.studio.games@gmail.com",
+        "<strong>Tempo de Resposta:</strong> Buscamos responder dentro de 7 dias úteis"
+      ]
+    }
+  ]
+}
