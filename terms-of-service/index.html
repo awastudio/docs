@@ -5,29 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terms of Service - Idle Crypto Tycoon</title>
     
-    <!-- Google Fonts -->
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Inter:wght@400;600&display=swap" rel="stylesheet">
     
-    <!-- CSS compartilhado -->
+    
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <div class="container">
-        <!-- Navigation Tabs (Privacy/Terms) -->
+        
         <nav class="doc-nav">
             <a href="../privacy-policy/" class="doc-nav-btn">
-                <span>📜</span>
+                <span class="icon">📜</span>
                 <span>Privacy Policy</span>
             </a>
             <a href="../terms-of-service/" class="doc-nav-btn active">
-                <span>📋</span>
+                <span class="icon">📋</span>
                 <span>Terms of Service</span>
             </a>
         </nav>
         
-        <!-- Header -->
+        
         <div class="header">
             <h1 class="game-title">⛏️ Idle Crypto Tycoon</h1>
             <p class="subtitle" id="subtitle">Terms of Service</p>
@@ -35,28 +35,30 @@
 
         <div class="divider"></div>
         
-        <!-- Content Container -->
-        <section class="document-section">
-            <!-- Top Bar (Last Updated + Language Selector) -->
+        
+        <section class="document-box">
+            
             <div class="top-bar">
                 <span class="last-updated" id="last-updated">📅 Loading...</span>
                 
                 <div class="language-selector">
-                    <select id="lang-select" onchange="switchLanguage(this.value)">
+                    <select id="lang-select" onchange="switchLanguage(this.value)" class="lang-dropdown">
                         <option value="en" selected>🇺🇸 English</option>
                         <option value="pt-br">🇧🇷 Português</option>
                     </select>
                 </div>
             </div>
             
-            <!-- Document Content -->
+            <div class="content-divider"></div>
+            
+            
             <div class="content" id="main-content">
                 <p>Loading content...</p>
             </div>
         </section>
     </div>
     
-    <!-- JavaScript -->
+    
     <script src="../js/terms.js"></script>
 </body>
 </html>
