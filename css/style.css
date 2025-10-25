@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Dark Theme Colors */
+    --bg-dark: #0f1419;
+    --bg-card: #1a1f2e;
+    --accent-cyan: #00d4ff;
+    --accent-gold: #ffd700;
+    --text-primary: #e8eaed;
+    --text-secondary: #9aa0a6;
+    --border-color: #2d3748;
+}
+
+body {
+    background: linear-gradient(135deg, var(--bg-dark) 0%, #1a1f2e 100%);
+    color: var(--text-primary);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Language Switcher */
+.language-switcher {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.lang-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    background: var(--bg-card);
+    border: 2px solid var(--border-color);
+    border-radius: 50px;
+    color: var(--text-secondary);
+    font-family: 'Fredoka One', cursive;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.lang-btn:hover {
+    border-color: var(--accent-cyan);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(0, 212, 255, 0.3);
+}
+
+.lang-btn.active {
+    background: linear-gradient(135deg, var(--accent-cyan), var(--accent-gold));
+    border-color: var(--accent-cyan);
+    color: var(--bg-dark);
+    box-shadow: 0 5px 25px rgba(0, 212, 255, 0.5);
+}
+
+.lang-btn .flag {
+    font-size: 1.5rem;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    margin-bottom: 60px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid var(--accent-cyan);
+}
+
+.game-title {
+    font-family: 'Fredoka One', cursive;
+    font-size: 3rem;
+    background: linear-gradient(135deg, var(--accent-cyan), var(--accent-gold));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 10px;
+    text-shadow: 0 0 30px rgba(0, 212, 255, 0.3);
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    font-weight: 400;
+}
+
+/* Language sections */
+.language-section {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.language-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.flag-large {
+    font-size: 2.5rem;
+}
+
+.language-title {
+    font-family: 'Fredoka One', cursive;
+    font-size: 2rem;
+    color: var(--accent-cyan);
+}
+
+/* Content styling */
+.content h2 {
+    font-family: 'Fredoka One', cursive;
+    color: var(--accent-gold);
+    font-size: 1.8rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.content h3 {
+    font-family: 'Fredoka One', cursive;
+    color: var(--accent-cyan);
+    font-size: 1.3rem;
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+
+.content p {
+    color: var(--text-primary);
+    margin-bottom: 16px;
+    font-size: 1rem;
+}
+
+.content ul {
+    margin: 15px 0;
+    padding-left: 30px;
+}
+
+.content li {
+    margin-bottom: 10px;
+    color: var(--text-secondary);
+}
+
+.content strong {
+    color: var(--accent-gold);
+    font-weight: 600;
+}
+
+.last-updated {
+    display: inline-block;
+    background: rgba(0, 212, 255, 0.1);
+    border: 1px solid var(--accent-cyan);
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-size: 0.9rem;
+    color: var(--accent-cyan);
+    margin-bottom: 25px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .game-title {
+        font-size: 2rem;
+    }
+    
+    .language-section {
+        padding: 25px;
+    }
+    
+    .content h2 {
+        font-size: 1.5rem;
+    }
+    
+    .lang-btn {
+        padding: 10px 18px;
+        font-size: 0.9rem;
+    }
+}
