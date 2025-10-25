@@ -1,9 +1,9 @@
-// Idioma padrão
-let currentLanguage = 'pt-br';
+// Idioma padrão mudou para inglês
+let currentLanguage = 'en';
 
 // Carrega o conteúdo quando a página terminar de carregar
 document.addEventListener('DOMContentLoaded', function() {
-    loadLanguage('pt-br');
+    loadLanguage('en'); // Mudou de 'pt-br' para 'en'
 });
 
 // Função para trocar idioma
@@ -50,8 +50,8 @@ async function loadLanguage(lang) {
         document.getElementById('main-content').innerHTML = contentHTML;
         
     } catch (error) {
-        console.error('Erro ao carregar idioma:', error);
+        console.error('Error loading language:', error);
         document.getElementById('main-content').innerHTML = 
-            '<p>Erro ao carregar conteúdo. Por favor, recarregue a página.</p>';
+            '<p>Error loading content. Please reload the page.</p>';
     }
 }
