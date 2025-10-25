@@ -1,0 +1,39 @@
+{
+  "subtitle": "Privacy Policy",
+  "flag": "🇺🇸",
+  "pageTitle": "Privacy Policy",
+  "lastUpdated": "Last updated: October 24, 2025",
+  "sections": [
+    {
+      "title": "Information Collected",
+      "content": "Our game collects the following data through Google Play Games Services:",
+      "items": [
+        "User IDs: For authentication and cloud save",
+        "Game progress: Achievements, leaderboards, saves",
+        "Performance data: Crash logs and diagnostics",
+        "App interactions: For usage analysis"
+      ]
+    },
+    {
+      "title": "How We Use Data",
+      "content": "We use the collected data for:",
+      "items": [
+        "Functionality: Authentication, cloud save, synchronization",
+        "Analytics: Game improvements and bug fixes",
+        "Management: Login and player profile"
+      ]
+    },
+    {
+      "title": "Data Sharing",
+      "content": "We do not share your data with third parties. Google Play Games Services processes data on our behalf as a service provider."
+    },
+    {
+      "title": "Security",
+      "content": "All data is encrypted in transit via HTTPS/TLS."
+    },
+    {
+      "title": "Your Rights",
+      "content": "You can request deletion of your data by emailing: contact@example.com"
+    }
+  ]
+}
