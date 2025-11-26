@@ -2,7 +2,7 @@
   "subtitle": "Termos de Uso",
   "flag": "🇧🇷",
   "pageTitle": "Termos de Uso",
-  "lastUpdated": "Última atualização: 24 de outubro de 2025",
+  "lastUpdated": "Última atualização: 25 de novembro de 2025",
   "sections": [
     {
       "title": "Aceitação dos Termos",
@@ -29,6 +29,7 @@
       "items": [
         "<strong>Sem Valor Real:</strong> Moeda virtual e itens não possuem valor monetário fora do Jogo e não podem ser trocados por dinheiro real",
         "<strong>Todas as Vendas São Finais:</strong> As compras são finais e não reembolsáveis, exceto quando exigido por lei",
+        "<strong>Reembolsos:</strong> Solicitações de reembolso para compras feitas através do Google Play devem ser enviadas diretamente ao Google, de acordo com sua política de reembolso",
         "<strong>Faturamento:</strong> Todas as compras são processadas através do Google Play Billing. Não temos acesso às suas informações de pagamento",
         "<strong>Mudanças de Preço:</strong> Reservamos o direito de modificar preços a qualquer momento sem aviso prévio",
         "<strong>Sem Garantia:</strong> Não garantimos a disponibilidade contínua de quaisquer itens virtuais ou moeda"
@@ -85,6 +86,10 @@
       "content": "Na extensão máxima permitida por lei, a AWA Studio não será responsável por quaisquer danos indiretos, incidentais, especiais, consequenciais ou punitivos, incluindo, mas não se limitando a perda de dados, perda de lucros ou perda de progresso no jogo, decorrentes de ou relacionados ao seu uso do Jogo."
     },
     {
+      "title": "Renúncia de Ação Coletiva",
+      "content": "Você concorda que quaisquer procedimentos de resolução de disputas serão conduzidos apenas individualmente e não em uma ação coletiva, consolidada ou representativa."
+    },
+    {
       "title": "Alterações no Jogo",
       "content": "Reservamos o direito de modificar, atualizar ou descontinuar o Jogo ou qualquer parte dele a qualquer momento, com ou sem aviso. Não somos responsáveis perante você ou qualquer terceiro por qualquer modificação, suspensão ou descontinuação do Jogo."
     },
@@ -94,7 +99,7 @@
     },
     {
       "title": "Lei Aplicável",
-      "content": "Estes Termos serão regidos e interpretados de acordo com as leis do Brasil, sem considerar seus princípios de conflito de leis. Quaisquer disputas decorrentes destes Termos ou do Jogo serão resolvidas nos tribunais do Brasil."
+      "content": "Estes Termos serão regidos e interpretados de acordo com as leis do Brasil, sem considerar seus princípios de conflito de leis. Quaisquer disputas decorrentes destes Termos ou do Jogo serão resolvidas nos tribunais do Estado de São Paulo, Brasil."
     },
     {
       "title": "Entre em Contato",
