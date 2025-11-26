@@ -2,7 +2,7 @@
   "subtitle": "Privacy Policy",
   "flag": "🇺🇸",
   "pageTitle": "Privacy Policy",
-  "lastUpdated": "Last updated: October 24, 2025",
+  "lastUpdated": "Last updated: November 25, 2025",
   "sections": [
     {
       "title": "Introduction",
@@ -97,7 +97,7 @@
     },
     {
       "title": "Legal Compliance",
-      "content": "This Privacy Policy complies with applicable data protection laws, including the General Data Protection Regulation (GDPR) for users in the European Economic Area (EEA) and the California Consumer Privacy Act (CCPA) for users in California, USA."
+      "content": "This Privacy Policy complies with applicable data protection laws, including the General Data Protection Regulation (GDPR) for users in the European Economic Area (EEA), the California Consumer Privacy Act (CCPA) for users in California, USA, and the Brazilian General Data Protection Law (LGPD) for users in Brazil."
     }
   ]
 }
