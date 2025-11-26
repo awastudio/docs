@@ -2,7 +2,7 @@
   "subtitle": "Terms of Service",
   "flag": "🇺🇸",
   "pageTitle": "Terms of Service",
-  "lastUpdated": "Last updated: October 24, 2025",
+  "lastUpdated": "Last updated: November 25, 2025",
   "sections": [
     {
       "title": "Acceptance of Terms",
@@ -29,6 +29,7 @@
       "items": [
         "<strong>No Real-World Value:</strong> Virtual currency and items have no monetary value outside the Game and cannot be exchanged for real currency",
         "<strong>All Sales Final:</strong> Purchases are final and non-refundable, except where required by law",
+        "<strong>Refunds:</strong> Refund requests for purchases made through Google Play must be submitted directly to Google according to their refund policy",
         "<strong>Billing:</strong> All purchases are processed through Google Play Billing. We do not have access to your payment information",
         "<strong>Price Changes:</strong> We reserve the right to modify prices at any time without prior notice",
         "<strong>No Guarantee:</strong> We do not guarantee the continued availability of any virtual items or currency"
@@ -85,6 +86,10 @@
       "content": "To the maximum extent permitted by law, AWA Studio shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of data, loss of profits, or loss of game progress, arising out of or related to your use of the Game."
     },
     {
+      "title": "Class Action Waiver",
+      "content": "You agree that any dispute resolution proceedings will be conducted only on an individual basis and not in a class, consolidated, or representative action."
+    },
+    {
       "title": "Changes to the Game",
       "content": "We reserve the right to modify, update, or discontinue the Game or any part of it at any time, with or without notice. We are not liable to you or any third party for any modification, suspension, or discontinuation of the Game."
     },
@@ -94,7 +99,7 @@
     },
     {
       "title": "Governing Law",
-      "content": "These Terms shall be governed by and construed in accordance with the laws of Brazil, without regard to its conflict of law principles. Any disputes arising from these Terms or the Game shall be resolved in the courts of Brazil."
+      "content": "These Terms shall be governed by and construed in accordance with the laws of Brazil, without regard to its conflict of law principles. Any disputes arising from these Terms or the Game shall be resolved in the courts of the State of São Paulo, Brazil."
     },
     {
       "title": "Contact Us",
